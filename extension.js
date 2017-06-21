@@ -55,7 +55,7 @@
       startupVolume: 0, // 0-100
       startupEmoji: false, // true or false
       autowoot: false,
-      autoskip: false,
+      autoskip: true,
       smartSkip: true,
       cmdDeletion: true,
       maximumAfk: 120,
@@ -69,7 +69,7 @@
       cycleGuard: true,
       maximumCycletime: 10,
       voteSkip: true,
-      voteSkipLimit: 4,
+      voteSkipLimit: 2,
       historySkip: true,
       timeGuard: true,
       maximumSongLength: 12,
@@ -79,12 +79,12 @@
       skipPosition: 3,
       skipReasons: [
       ["theme", "This song does not fit the room theme. "],
-      ["op", "This song is on the OP list. "],
+      ["op", "Эта песня внесена в единый реестр слишком часто проигрываемых песен."],
       ["history", "Это недавно играло, смените пластинку. "],
-      ["mix", "You played a mix, which is against the rules. "],
-      ["sound", "The song you played had bad sound quality or no sound. "],
-      ["nsfw", "The song you contained was NSFW (image or sound). "],
-      ["unavailable", "The song you played was not available for some users. "]
+      ["mix", "Миксы сейчас не приветствуются."],
+      ["sound", "Плохое качество звука. "],
+      ["nsfw", "NSFW!"],
+      ["unavailable", "Эта песня не всем доступна."]
       ],
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
