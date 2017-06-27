@@ -157,7 +157,7 @@
     "facebook": "\/me Like us on facebook: %%LINK%%",
     "starterhelp": "\/me This image will get you started on plug: %%LINK%%",
     "roulettejoin": "@%%NAME%% joined the roulette! (!leave if you regret it)",
-    "jointime": "\/me [@%%NAMEFROM%%] @%%USERNAME%% has been in the room for %%TIME%%.",
+    "jointime": "\/me [@%%NAMEFROM%%] @%%USERNAME%% тут уже %%TIME%% минут.",
     "kickrank": "\/me [@%%NAME%%] you can't kick users with an equal or higher rank than you!",
     "kick": "\/me [@%%NAME%%], @%%USERNAME%% you are being kicked from the community for %%TIME%% minutes.",
     "kill": "\/me Ава вырубилась.",
